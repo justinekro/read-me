@@ -30,7 +30,7 @@ Vous l'aurez compris, le MVC est composé de trois briques :
 
 ## On the road again : les routes !
 
-![Rails_logo](http://rubyonrails.org/images/rails-logo.svg)
+![Road](/road.jpeg)
 
 Les routes indiquent où le visiteur se trouve dans l'architecture d'un site. 
 On peut les identifier dans les URLs. Ce sont ces routes qui indiqueront au Controller quelles actions effectuer, et quelles informations aller chercher dans le Model.

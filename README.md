@@ -1,3 +1,6 @@
+Inline-style: 
+![Le saviez-vous?](https://ibb.co/kUadeR "Light bulb")
+
 # Ce que vous n'avez jamais osé demander sur... __le MVC__ !
 
 ## Commençons par le commencement : le site statique vs le site dynamique
@@ -6,7 +9,10 @@ Contrairement à un site statique qui s'affiche exactement comme il est héberg�
 
 Prenons pour exemple deux sites extrêmement populaires.
 [Motherfuckingwebsite](http://motherfuckingwebsite.com/) vs... une page facebook [Une page Facebook](https://www.facebook.com/)!
+
 Dans le cas de Motherfuckingwebsite.
+
+
 
 ## Vous avez dit MVC ?
 

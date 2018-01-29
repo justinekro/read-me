@@ -32,10 +32,10 @@ On peut les identifier dans les URLs.
 
 Une base de données permet de stocker les informations en les organisant.
 
-Exemples :
-Dans les cas d'un blog, nous allons pouvoir stocker 
-* les articles : avec leur titre, contenu, date de création 
-* les commentaires : avec leur concepteur, leur contenu, et l'article associé
+> Dans les cas d'un blog, nous allons pouvoir stocker dans une base de données
+> * des articles : avec leur titre, contenu, date de création 
+> * des commentaires : avec leur concepteur, leur contenu, et l'article associé
+> * des utilisateurs...
 
 
 ## La différence entre GET et POST

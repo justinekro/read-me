@@ -1,6 +1,6 @@
 # Ce que vous n'avez jamais osé demander sur... __le MVC__ !
 
-## Commençons par le commencement : site statique vs site dynamique
+## Commençons par le commencement : le site dynamique
 
 Contrairement à un site statique qui s'affiche exactement comme il est hébergé, le contenu d'un site dynamique change en fonction des visiteurs et de leurs requêtes. 
 
@@ -15,18 +15,26 @@ Site | Comportement du serveur | Page affichée | Dynamique ?
 
 Un site dynamique fonctionne grâce à un langage serveur, qui stocke et réutilise les informations des utilisateurs sur des bases de données.
 
+__Mais comment un site dynamique est-il généré ?__
+
 ## Vous avez dit MVC ?
 
-MVC signifie Model View Controller. C'est une forme d'architecture qui repose sur plusieurs pilliers. 3 exactement :
+MVC signifie Model View Controller. C'est une forme d'architecture qui permet justement de générer du contenu dynamique, à partir de requêtes utilisateurs. C'est un modèle très populaire, en particulier pour les applications Web. 
 
-* Model : c'est la brique en relation avec les bases de données
-* View : c'est la brique qui révèle l'interface générée grâce aux informations tirées de la base de données
-* Controller : c'est la brique qui assure que les informations récupérées par le Model sont utilisées par la brique View pour générer le contenu dynamique
+Vous l'aurez compris, le MVC est composé de trois briques :
+
+* Model : c'est la brique en relation avec les bases de données. Elle va récupérer l'information pertinente à afficher
+* View : c'est la brique qui crée l'interface visuele, en fonction des informations tirées de la base de données
+* Controller : c'est la brique qui fait le lien ! Elle donne des ordres à la brique Models sur l'information à récupérer, et s'assure que ces informations sont utilisées par la brique View pour générer le contenu dynamique
+
 
 ## On the road again : les routes !
 
+[logo]: http://www.livelaw.in/properly-maintained-roads-is-a-part-of-fundamental-rights-under-article-21-of-the-indian-constitution-bombay-high-court/ "Logo Title Text 2"
+
+
 Les routes indiquent où le visiteur se trouve dans l'architecture d'un site. 
-On peut les identifier dans les URLs. 
+On peut les identifier dans les URLs. Ce sont ces routes qui indiqueront au Controller quelles actions effectuer, et quelles informations aller chercher dans le Model.
 
 ## Les Bases de Données
 
@@ -36,6 +44,14 @@ Une base de données permet de stocker les informations en les organisant.
 > * des articles : avec leur titre, contenu, date de création 
 > * des commentaires : avec leur concepteur, leur contenu, et l'article associé
 > * des utilisateurs...
+
+### Et maintenant, une petite mise en application !
+
+Imaginez que vous êtes sur la page d'accueil d'un blog, et que vous avez accès à plusieurs articles.
+
+En cliquant sur le lien de redirection vers un article, vous changez de référentiel (en fait, de Controller !). Chaque action qui peut être effectuée sur l'article (par exemple : l'afficher, le modifier...) est gérée par le __Controller__. 
+
+Si vous souhaitez afficher l'article, le __Controller__ va indiquer au __Model__ qu'il a besoin des informations concernant le contenu de l'article. Par exemple, il doit récupérer son titre et son contenu... pour pouvoir l'afficher ! C'est là que le __View__ rentre en action, pour adapter le contenu de la page à ce que désire l'utilisateur.
 
 
 ## La différence entre GET et POST

@@ -30,6 +30,8 @@ Vous l'aurez compris, le MVC est composé de trois briques :
 
 ## On the road again : les routes !
 
+<div style="text-align:center"> <img href ="https://github.com/justinekro/read-me/blob/master/road.jpg" /> </div>
+
 ![Road](https://github.com/justinekro/read-me/blob/master/road.jpg)
 
 Les routes indiquent où le visiteur se trouve dans l'architecture d'un site. 

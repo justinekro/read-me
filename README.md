@@ -1,5 +1,4 @@
-Inline-style: 
-![Le saviez-vous?](https://ibb.co/kUadeR "Light bulb")
+![Le saviez-vous?](https://github.com/justinekro/read-me/idea.png "Light bulb")
 
 # Ce que vous n'avez jamais osé demander sur... __le MVC__ !
 

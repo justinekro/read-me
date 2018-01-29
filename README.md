@@ -98,11 +98,9 @@ Ces quelques lignes créent une table Articles avec une colonne "title" et une c
 
 ## Comment sont liés les models des BDD ?
 
-Les différents Models sont liés entre eux par des clés.
+Les différents Models sont liés entre eux par des associations, qui définissent des liens entre les classes.
 
 Si l'on reprend l'exemple du blog, chaque article peut avoir plusieurs commentaires. Ce qui signifie que les articles et les commentaires sont liés entre eux.
-
-Comment ? Grâce à des fonctions !
 
 ### Exemple dans Rails
 
@@ -112,14 +110,14 @@ class Comment
 end
 
 ```
-Cette fonction indique que les commentaires appartiennent à un article... et un seul !
+L'association "belongs_to" indique que les commentaires appartiennent à un article... et un seul !
 
 ```ruby
 class Article
   has_many :comments
 end
 ```
-Cette fonction indique qu'un article peut avoir plusieurs commentaires.
+L'association "belongs_to" indique qu'un article peut avoir plusieurs commentaires.
 
 ## Le CRUD
 

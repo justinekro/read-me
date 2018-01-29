@@ -2,15 +2,21 @@
 
 # Ce que vous n'avez jamais osé demander sur... __le MVC__ !
 
-## Commençons par le commencement : le site statique vs le site dynamique
+## Commençons par le commencement : site statique vs site dynamique
 
-Contrairement à un site statique qui s'affiche exactement comme il est hébergé, le contenu d'un site dynamique change en fonction des visiteurs et de leurs requêtes.
+Contrairement à un site statique qui s'affiche exactement comme il est hébergé, le contenu d'un site dynamique change en fonction des visiteurs et de leurs requêtes. 
 
-Prenons pour exemple deux sites extrêmement populaires.
-[Motherfuckingwebsite](http://motherfuckingwebsite.com/) vs... une page facebook [Une page Facebook](https://www.facebook.com/)!
+Prenons pour exemple deux sites extrêmement populaires ;)
 
-Dans le cas de Motherfuckingwebsite.
+[Motherfuckingwebsite](http://motherfuckingwebsite.com/) vs... une page Facebook [Une page Facebook](https://www.facebook.com/)!
 
+Dans le cas de Motherfuckingwebsite, l'utilisateur arrive sur le site et le serveur lui __envoie__ la page demandée.
+
+Dans le cas de Facebook, l'utilisateur arrive sur le site, le serveur récupère des informations liées à a sa requête, et __génère__ une page avant de lui envoyer.
+
+> L'utilisateur induit donc le contenu de la page. Soit de façon consciente (en remplissant un formulaire par exemple), soit inconsciente.
+
+Un site dynamique fonctionne grâce à un langage serveur, qui stocke et réutilise les informations des utilisateurs sur des bases de données.
 
 
 ## Vous avez dit MVC ?

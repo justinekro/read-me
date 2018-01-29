@@ -1,18 +1,12 @@
-# Tout ce que vous n'avez jamais osé demander sur... __le MVC__ !
-
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
+# Ce que vous n'avez jamais osé demander sur... __le MVC__ !
 
 ## Commençons par le commencement : le site statique vs le site dynamique
 
 Contrairement à un site statique qui s'affiche exactement comme il est hébergé, le contenu d'un site dynamique change en fonction des visiteurs et de leurs requêtes.
 
-motherfuckingwebsite vs une page facebook
-
+Prenons pour exemple deux sites extrêmement populaires.
+[Motherfuckingwebsite](http://motherfuckingwebsite.com/) vs... une page facebook [Une page Facebook](https://www.facebook.com/)!
+Dans le cas de Motherfuckingwebsite.
 
 ## Vous avez dit MVC ?
 
@@ -22,9 +16,9 @@ Controller
 
 ## On the road again : les routes !
 
-URL
+Les routes indiquent où le visiteur se trouve dans l'architecture d'un site.
 où tu te trouves dans l'architecture du site. 
-
+URL
 
 ## Les Bases de Données
 
@@ -49,18 +43,22 @@ ensuite, faire une base de données
 
 Si l'on reprend l'exemple du blog, chaque article peut avoir plusieurs commentaires. Ce qui signifie que les articles et les commentaires sont liés entre eux.
 
-Comment ? Grâce à des fonctions ?
+Comment ? Grâce à des fonctions !
 
-belongs_to > valable pour les commentaires. Chaque commentaire appartient à un article
+```ruby
+belongs_to
+```
+Cette fonction indique que les commentaires appartiennent à un article... et un seul !
 
-
-une clé > reference 
-
+```ruby
+has_many
+```
+Cette fonction indique qu'un article peut avoir plusieurs commentaires.
 
 ## Les fonctions du CRUD
 
-Create
-Read
-Update
-Delete
+### Create
+### Read
+### Update
+### Delete
 

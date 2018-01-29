@@ -1,5 +1,3 @@
-![Le saviez-vous?](https://github.com/justinekro/read-me/idea.png "Light bulb")
-
 # Ce que vous n'avez jamais osé demander sur... __le MVC__ !
 
 ## Commençons par le commencement : site statique vs site dynamique
@@ -8,11 +6,12 @@ Contrairement à un site statique qui s'affiche exactement comme il est héberg�
 
 Prenons pour exemple deux sites extrêmement populaires ;)
 
-[Motherfuckingwebsite](http://motherfuckingwebsite.com/) vs... une page Facebook [Une page Facebook](https://www.facebook.com/)!
+| Site | Comportement du serveur | Page affichée |
+| --- | --- | --- |
 
-Dans le cas de Motherfuckingwebsite, l'utilisateur arrive sur le site et le serveur lui __envoie__ la page demandée.
+| [Motherfuckingwebsite](http://motherfuckingwebsite.com/) | Le serveur envoie une page statique | La page affichée ne change pas d'un utilisateur à un autre |
 
-Dans le cas de Facebook, l'utilisateur arrive sur le site, le serveur récupère des informations liées à a sa requête, et __génère__ une page avant de lui envoyer.
+| [Une page Facebook](https://www.facebook.com/) |  Le serveur utilise les informations liés à l'utilisateur pour __générer__ une page HTML | La page affichée est dynamique : son contenu est lié à la requête de l'utilisateur |
 
 > L'utilisateur induit donc le contenu de la page. Soit de façon consciente (en remplissant un formulaire par exemple), soit inconsciente.
 

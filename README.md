@@ -6,12 +6,12 @@ Contrairement à un site statique qui s'affiche exactement comme il est héberg�
 
 Prenons pour exemple deux sites extrêmement populaires ;)
 
-Site | Comportement du serveur | Page affichée
---- | --- | --- |
-[Motherfuckingwebsite](http://motherfuckingwebsite.com/) | Le serveur envoie une page statique | La page affichée ne change pas d'un utilisateur à un autre |
-[Une page Facebook](https://www.facebook.com/) |  Le serveur utilise les informations liés à l'utilisateur pour __générer__ une page HTML | La page affichée est dynamique : son contenu est lié à la requête de l'utilisateur
+Site | Comportement du serveur | Page affichée | Dynamique ?
+--- | --- | --- | ---
+[Motherfuckingwebsite](http://motherfuckingwebsite.com/) | Le serveur envoie une page statique | La page affichée ne change pas d'un utilisateur à un autre | Non...
+[Une page Facebook](https://www.facebook.com/) |  Le serveur utilise les informations liés à l'utilisateur pour __générer__ une page HTML | La page affichée est dynamique : son contenu est lié à la requête de l'utilisateur | Oui !
 
-> L'utilisateur induit donc le contenu de la page. Soit de façon consciente (en remplissant un formulaire par exemple), soit inconsciente.
+> Dans le cas d'un site dynamique, l'utilisateur induit le contenu de la page. Soit de façon consciente (en remplissant un formulaire par exemple), soit inconsciente.
 
 Un site dynamique fonctionne grâce à un langage serveur, qui stocke et réutilise les informations des utilisateurs sur des bases de données.
 

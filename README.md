@@ -30,7 +30,7 @@ Vous l'aurez compris, le MVC est composé de trois briques :
 
 ## On the road again : les routes !
 
-[logo]: http://www.livelaw.in/properly-maintained-roads-is-a-part-of-fundamental-rights-under-article-21-of-the-indian-constitution-bombay-high-court/ "Logo Title Text 2"
+![alt text](http://www.livelaw.in/properly-maintained-roads-is-a-part-of-fundamental-rights-under-article-21-of-the-indian-constitution-bombay-high-court/ "Logo Title Text 2")
 
 
 Les routes indiquent où le visiteur se trouve dans l'architecture d'un site. 

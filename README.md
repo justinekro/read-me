@@ -30,7 +30,7 @@ Vous l'aurez compris, le MVC est composé de trois briques :
 
 ## On the road again : les routes !
 
-![Road](/road.jpeg)
+![Road](https://github.com/justinekro/read-me/blob/master/road.jpg)
 
 Les routes indiquent où le visiteur se trouve dans l'architecture d'un site. 
 On peut les identifier dans les URLs. Ce sont ces routes qui indiqueront au Controller quelles actions effectuer, et quelles informations aller chercher dans le Model.
